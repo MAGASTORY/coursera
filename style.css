@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+display: block;
+text-align: center;
+position: relative;
+top: 55px;
+}
+
+.content{
+    border: 3px solid;
+    position: relative;
+    top: 40%;
+    background-color: grey;
+}
+
+p{
+    padding: 0px 10px;
+    font-weight: 700;
+    color: black;
+}
+
+h4{
+    position: relative;
+    left: 75%;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 90px;
+    font-size: 22px;
+    text-align: center;
+    padding: 2px 4px 3px 8px;
+}
+
+.fix-color{
+    color: white;
+}
+
+.fix2 , .fix-color-1{
+    color: black;
+}
+
+ 
+
+/* media queries small screen*/
+
+@media only screen and (max-width:780px){
+   .fix-beef-sm{
+       position: relative;
+       top: 145px;
+   } 
+   .fix{
+    position: relative;
+    top: 220px;
+   }
+
+   .fix2{
+       width: 130px;
+   }
+
+   .fix-color, .fix-color-1{
+    width: 130px;
+   }
+
+}
+
+/* Extra small screen */
+/*
+@media (max-width:441px){
+    .fix2{
+        width: 140px;
+    }
+ 
+    .fix-color, .fix-color-1{
+     width: 150px;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+    .fix-beef-sm{
+        position: relative;
+        top: 170px;
+    }
+    .fix{
+        position: relative;
+        top: 223px;
+    }
+ 
+}
+*/
+
+@media only screen and (min-width: 768px) and (max-width:990px){
+    .fix{
+        position: relative;
+        top: 170px;
+    }
+    .fix-color, .fix-color-1{
+        width: 84px;
+
+    }
+    .fix2{
+        width: 175px;
+    }
+
+    h4{
+        font-size: 18px;
+        text-align: center;
+    }
+}
